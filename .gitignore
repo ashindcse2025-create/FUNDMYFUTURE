@@ -1,0 +1,36 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment / secrets
+.env
+.env.*
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing / cache
+.pytest_cache/
+
+# Local downloaded NSP page
+backend/nsp_page.html
+# Local scholarship database backups
+backend/scholarship_backup.json
+backend/scholarship_backup_before_nsp_merge.json
